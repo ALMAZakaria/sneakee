@@ -3,9 +3,12 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 bg-black">
-      <div className="flex justify-start pl-8">
-          <img  src={"https://screendy-cdn.fra1.cdn.digitaloceanspaces.com/platfrom-v2/_files/file_1750430583519_WhiteWolfLogo.png"} alt="logo" className="w-14 h-14" />
+    <div className="fixed top-0 left-0 right-0 z-51 grid grid-cols-3 gap-4 bg-black border-b border-gray-700">
+      <div className="flex justify-start items-centerpl -8">
+          <img  src={"https://screendy-cdn.fra1.cdn.digitaloceanspaces.com/platfrom-v2/_files/file_1750430583519_WhiteWolfLogo.png"}
+           alt="logo" 
+           className="w-16 h-16" 
+           />
       </div>
       <div className="flex justify-center items-center "> 
         <ul className="flex gap-4">

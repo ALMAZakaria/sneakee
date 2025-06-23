@@ -1,10 +1,11 @@
-import React from "react";
 import Navbar from "../components/navbar.jsx";
+import Hero from "../components/hero.jsx";
 
 const Home = () => {
   return (
-    <div className="relative flex flex-col full-width bg-black">
+    <div className=" top-relative flex flex-col full-width bg-black">
       <Navbar/>
+      <Hero/>
     </div>
   );
 };
